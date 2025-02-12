@@ -19,9 +19,8 @@
     <img src="https://img.shields.io/badge/Overleaf-proposal-138a07?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABfVBMVEUAAABIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDwAAAAcciVhAAAAfXRSTlMAAA8mNj9EQz0yIQhVz+71+/79+fPrZU3k96yDmo36wQEos1pWyR+9tSrjwjkSoF9Fezo3jPZQSm6Til0RmR4Qiysk8YFcDe30kdO8aCPygkwpCtkU3QXwnxu2WXw4R3MM7FRICxZTUQPaBAfnqBXVE2MYZNvEtIQX+MU7S/Pc0IMAAAABYktHRACIBR1IAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5AYYFRgQ3q2QQgAAAX1JREFUOMutUldbwkAQ3At2UQJiiQ1FxYaoaGyo2Dt27Nh7FxuK89+9iH4muTz5uS/J3czuzO4t0f8GY0SSLS09IzMrOyeXmIAT2fPyHbITcBW4C4vECsUl+A4FKDVXYKzsBy6vqISnSsivTqHemto6XsLHBAP1GtwgNTZp32qLHvh1s78l8FWm1aKFNqCdgooGOzpIFOiEGiR7V3dPb1+o3yJ/AG5psIBnD4QtZzgEDI+MfsmrYyR2yPXHJ6DmT05plGlxxDOYJe+cLSxFQvOcsWC2UAwsLkU0Z4yWV/iUVk2EKEBrKeecsQ5sGNvYVLCl09vmIsYCfhk7Okc5biBmIOy6sKc77h8AhwbCkQsB3fGYE+wGQkyGQyfh4xJBA+FEBU5/bZ9xk+dGlx7g4vLncHUN3Jhe65bnrFxqO81Y7h1f2XvzqLVtjD7EieKPT/y3j5n3lZ6hixer9379xReICfvCaySeFdnplN/eE+I6pRgUTy5+JBNkjf89PgFCeG27lghtGAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMC0wNi0yNFQyMToyNDoxNiswMDowMFNIgJYAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjAtMDYtMjRUMjE6MjQ6MTYrMDA6MDAiFTgqAAAAAElFTkSuQmCC" />
   </a>
 
-  <a href="https://www.overleaf.com/read/...">
-    <img
-    src="https://img.shields.io/badge/Overleaf-thesis-138a07?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABfVBMVEUAAABIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDwAAAAcciVhAAAAfXRSTlMAAA8mNj9EQz0yIQhVz+71+/79+fPrZU3k96yDmo36wQEos1pWyR+9tSrjwjkSoF9Fezo3jPZQSm6Til0RmR4Qiysk8YFcDe30kdO8aCPygkwpCtkU3QXwnxu2WXw4R3MM7FRICxZTUQPaBAfnqBXVE2MYZNvEtIQX+MU7S/Pc0IMAAAABYktHRACIBR1IAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5AYYFRgQ3q2QQgAAAX1JREFUOMutUldbwkAQ3At2UQJiiQ1FxYaoaGyo2Dt27Nh7FxuK89+9iH4muTz5uS/J3czuzO4t0f8GY0SSLS09IzMrOyeXmIAT2fPyHbITcBW4C4vECsUl+A4FKDVXYKzsBy6vqISnSsivTqHemto6XsLHBAP1GtwgNTZp32qLHvh1s78l8FWm1aKFNqCdgooGOzpIFOiEGiR7V3dPb1+o3yJ/AG5psIBnD4QtZzgEDI+MfsmrYyR2yPXHJ6DmT05plGlxxDOYJe+cLSxFQvOcsWC2UAwsLkU0Z4yWV/iUVk2EKEBrKeecsQ5sGNvYVLCl09vmIsYCfhk7Okc5biBmIOy6sKc77h8AhwbCkQsB3fGYE+wGQkyGQyfh4xJBA+FEBU5/bZ9xk+dGlx7g4vLncHUN3Jhe65bnrFxqO81Y7h1f2XvzqLVtjD7EieKPT/y3j5n3lZ6hixer9379xReICfvCaySeFdnplN/eE+I6pRgUTy5+JBNkjf89PgFCeG27lghtGAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMC0wNi0yNFQyMToyNDoxNiswMDowMFNIgJYAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjAtMDYtMjRUMjE6MjQ6MTYrMDA6MDAiFTgqAAAAAElFTkSuQmCC"
+  <a href="https://www.overleaf.com/read/scdtcrbcbyyr#871d14">
+    <img src="https://img.shields.io/badge/Overleaf-thesis-138a07?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABfVBMVEUAAABIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDxIrDwAAAAcciVhAAAAfXRSTlMAAA8mNj9EQz0yIQhVz+71+/79+fPrZU3k96yDmo36wQEos1pWyR+9tSrjwjkSoF9Fezo3jPZQSm6Til0RmR4Qiysk8YFcDe30kdO8aCPygkwpCtkU3QXwnxu2WXw4R3MM7FRICxZTUQPaBAfnqBXVE2MYZNvEtIQX+MU7S/Pc0IMAAAABYktHRACIBR1IAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5AYYFRgQ3q2QQgAAAX1JREFUOMutUldbwkAQ3At2UQJiiQ1FxYaoaGyo2Dt27Nh7FxuK89+9iH4muTz5uS/J3czuzO4t0f8GY0SSLS09IzMrOyeXmIAT2fPyHbITcBW4C4vECsUl+A4FKDVXYKzsBy6vqISnSsivTqHemto6XsLHBAP1GtwgNTZp32qLHvh1s78l8FWm1aKFNqCdgooGOzpIFOiEGiR7V3dPb1+o3yJ/AG5psIBnD4QtZzgEDI+MfsmrYyR2yPXHJ6DmT05plGlxxDOYJe+cLSxFQvOcsWC2UAwsLkU0Z4yWV/iUVk2EKEBrKeecsQ5sGNvYVLCl09vmIsYCfhk7Okc5biBmIOy6sKc77h8AhwbCkQsB3fGYE+wGQkyGQyfh4xJBA+FEBU5/bZ9xk+dGlx7g4vLncHUN3Jhe65bnrFxqO81Y7h1f2XvzqLVtjD7EieKPT/y3j5n3lZ6hixer9379xReICfvCaySeFdnplN/eE+I6pRgUTy5+JBNkjf89PgFCeG27lghtGAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMC0wNi0yNFQyMToyNDoxNiswMDowMFNIgJYAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjAtMDYtMjRUMjE6MjQ6MTYrMDA6MDAiFTgqAAAAAElFTkSuQmCC"
     />
   </a>
 
@@ -48,26 +47,22 @@
 ## Table of contents
 - [Table of contents](#table-of-contents)
 - [Quick Info](#quick-info)
-- [Template](#template)
-- [Description](#description)
 
 ## Quick Info
 
 - **Team**
-  - Supervisor: [Dr. Emre Süren](https://github.com/beyefendi)
-  - Active members: [Adam](link-to-online-profile) | [Eva](link-to-online-profile)
-  - Past members: [Sonson](link-to-online-profile)
+  - Supervisors: [Dr. Emre Süren](https://github.com/beyefendi) | [Teodor Sommestad](#)
+  - Author: [Peter Daniel](link-to-online-profile) 
+
 - **Timeline**
   - Status: running :green_circle: (or pending :yellow_circle:, completed :orange_circle:)
-  - Started: 2024-09
-  - Ended: 2025-03
+  - Started: 2024-08
+  - Ended: 2025-04
 - **Parent project:** [LLM Security | Vulnerability Researh | Digital Forensics](link-to-umbrella-project)
 - **Abstract:**
 A notable trend among malicious actors in the threat landscape is the adoption of Living-off-the-Land (LotL) binaries -- legitimate system utilities already present in the system -- as a defense evasion mechanism. The dual usage of these techniques by administrators and attackers alike have blurred the line between benign and malicious activities, triggering numerous false alarms in Intrusion Detection Systems (IDS), diminishing their efficacy and overwhelming security teams. This thesis investigates the challenges of accurately distinguishing between legitimate and adversarial use of LotL techniques, focusing on how overlapping techniques impact IDS performance. A subset of administrative tasks that resemble adversarial behaviors were automated and simulated in the Cyber Range And Training Environment (CRATE), while the Atomic Red Team framework was used to emulate malicious actions. Testing for detection accuracy was evaluated using signature-based IDS tools, Snort, Sysmon and Wazuh. The findings show that despite using the same binaries and triggering identical signatures, there are subtle behavioral differences between benign and malicious usage of these binaries. Although all the activities generated by the simulations were captured by the security monitoring tools, contextual analysis was required to further distinguish between the two activities. Key recommendations include detection signature refinement and incorporating contextual analysis and anomaly detection to enhance IDS capabilities.
 
-<img  src=".images/system_design.png" alt="Research Illustration" width=800 align="center" />
-
-**Do not delete below from your repo**
+<img  src=".images/system_design.png" alt="System Design" width=800 align="center" />
 
 <br>
 
