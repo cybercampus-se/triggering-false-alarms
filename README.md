@@ -55,7 +55,7 @@
   - Author: [Peter Daniel](link-to-online-profile) 
 
 - **Timeline**
-  - Status: running :green_circle: (or pending :yellow_circle:, completed :orange_circle:)
+  - Status: running :green_circle: 
   - Started: 2024-08
   - Ended: 2025-04
 - **Parent project:** [LLM Security | Vulnerability Researh | Digital Forensics](link-to-umbrella-project)
