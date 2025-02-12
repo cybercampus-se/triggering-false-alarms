@@ -1,0 +1,24 @@
+attack_technique: T1070.004
+display_name: 'Indicator Removal on Host: File Deletion'
+atomic_tests:
+- name: Greedy File Deletion - Windows cmd 
+  auto_generated_guid: da99a971-fbd2-4a7b-8bd0-b29ed6668f03
+  description: |
+    Deletes files using greedy/wildcard expression.
+
+    https://detection.fyi/sigma/windows/process_creation/proc_creation_win_cmd_del_greedy_deletion/
+  supported_platforms:
+  - windows
+  dependency_executor_name: command_prompt
+  dependencies:
+  - description: |
+      The file to delete must exist on disk at specified location
+    prereq_command: |
+      IF EXIST "C:\AtomicRedTeam\ExternalPayloads\temp_T1070.004\*.dll" (EXIT 0) ELSE (EXIT 1)
+    get_prereq_command: |
+      echo TestPrefetchFile > "C:\AtomicRedTeam\ExternalPayloads\temp_T1070.004\TestFile.dll"
+  executor:
+    command: |
+      erase "C:\AtomicRedTeam\ExternalPayloads\temp_T1070.004\*.dll"
+    name: command_prompt
+ 

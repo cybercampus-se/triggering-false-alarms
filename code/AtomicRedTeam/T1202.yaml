@@ -1,0 +1,23 @@
+attack_technique: T1202
+display_name: Indirect Command Execution
+atomic_tests:
+- name: Indirect Command Execution - ssh.exe
+  auto_generated_guid: 258dbc5c-df48-4f4e-9fb2-1c5be8abcaaa
+  description: |-
+    The ssh.exe utility can be abused to proxy execution through the ProxyCommand, allowing for the execution of programs and commands. 
+    In this case, calc.exe is executed through ssh, which can be used as a defense evasion technique.
+    Reference: https://lolbas-project.github.io/lolbas/Binaries/Ssh/
+  supported_platforms:
+  - windows
+  input_arguments:
+    payload_path:
+      description: Path to the executable
+      type: String
+      default: C:\Windows\System32\calc.exe
+  executor:
+    command: ssh -o ProxyCommand="#{payload_path}" .
+    cleanup_command: Stop-Process -Name CalculatorApp -Force
+    name: powershell
+    elevation_required: false
+  
+  
