@@ -1,5 +1,5 @@
 <h1 align="center" position="relative">
-  <span>Semi-Structured Interview and Survey Questions</span>
+  <span>Semi-Structured Interview and Online Survey Questions</span>
   <br>
 </h1> 
 

@@ -1,0 +1,52 @@
+    <!-- ############################################################### -->
+    <!--                                                                 -->
+    <!--   This file contains a sample of Wazuh rules derived from       -->
+    <!--   Sigma signatures, that were used to detect emulated sysadmin  -->
+    <!--   and adversary behaviors. The included detection rules focus   -->
+    <!--   on identifying SSH Proxy Execution and SSH Port Forwarding    -->
+    <!--                                                                 -->
+    <!-- ############################################################### -->
+
+    
+    <!-- Rule: Program executed using proxy/local command via ssh.exe  -->
+
+    <rule id="100001" level="10">
+        <info type="link">https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/proc_creation_win_ssh_proxy_execution.yml</info>
+        <info type="text">Sigma Rule Author: frack113, Nasreddine Bencherchali</info>
+        <info type="text">Description: Detect usage of the "ssh.exe" binary as a proxy to launch other programs.</info>
+        <info type="text">Date: 2022-12-29</info>
+        <info type="text">Status: test</info>
+        <info type="text">ID: 7d6d30b8-5b91-4b90-a891-46cccaf29598</info>
+        <info type="text">Falsepositives: Legitimate usage for administration purposes.</info>
+        <mitre>
+            <id>T1218</id> 
+        </mitre>
+        <description>Program Executed Using Proxy/Local Command Via SSH.EXE</description>
+        <options>no_full_log</options>
+        <if_group>sysmon_event1</if_group>
+        <field name="win.eventdata.image" negate="no" type="pcre2">(?i)\\+ssh\.exe</field>
+        <field name="win.eventdata.parentCommandLine">ProxyCommand=</field>
+        <field name="win.eventdata.commandLine" negate="no" type="pcre2">(?i)PermitLocalCommand</field> 
+        <field name="win.eventdata.commandLine" negate="no" type="pcre2">(?i)LocalCommand</field>
+    </rule>
+
+    <!-- Rule: Port forwarding activity via ssh.exe -->
+
+    <rule id="100002" level="10"> 
+        <info type="link">https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/proc_creation_win_ssh_port_forward.yml</info>
+        <info type="text">Sigma Rule Author: Nasreddine Bencherchali (Nextron Systems)</info>
+        <info type="text">Description: Detects port forwarding activity via SSH.exe</info>
+        <info type="text">Date: 2022-10-12</info>
+        <info type="text">Status: experimental</info>
+        <info type="text">ID: 327f48c1-a6db-4eb8-875a-f6981f1b0183</info>
+        <info type="text">Falsepositives: Legitimate usage for administration purposes.</info>        
+        <mitre>
+            <id>T1021.001</id> 
+            <id>T1021.004</id>
+        </mitre>
+        <description>Port Forwarding Activity Via SSH.EXE</description>
+        <options>no_full_log</options>
+        <if_group>sysmon</if_group>
+        <field name="win.eventdata.image" negate="no" type="pcre2">(?i)\\+ssh\.exe</field>
+        <field name="win.eventdata.commandLine" negate="no" type="pcre2">(?i)(?: [/-]R )</field>
+    </rule>
