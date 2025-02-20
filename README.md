@@ -48,7 +48,7 @@
   - Started: 2024-08
   - Ended: 2025-04
 
-- **Abstract**
+- **Abstract:**
 <p align="justify">
 A notable trend among malicious actors in the threat landscape is the adoption of Living-off-the-Land (LotL) binaries
 -- legitimate system utilities already present in the system -- as a defense evasion mechanism. The dual usage of these
@@ -65,7 +65,7 @@ Key recommendations include detection signature refinement and incorporating con
 IDS capabilities.
 </p>
 
-<img  src=".images/system_design.png" alt="System Design" width=800 align="center" />
+<img  src=".images/system_design.png" alt="System Design" align="center" />
 
 <br>
 
