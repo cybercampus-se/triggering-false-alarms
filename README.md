@@ -49,6 +49,7 @@
   - Ended: 2025-04
 
 - **Abstract:**
+<p align="justify">
 A notable trend among malicious actors in the threat landscape is the adoption of Living-off-the-Land (LotL) binaries
 -- legitimate system utilities already present in the system -- as a defense evasion mechanism. The dual usage of these
 techniques by administrators and attackers alike have blurred the line between benign and malicious activities, triggering
@@ -62,6 +63,7 @@ differences between benign and malicious usage of these binaries. Although all t
 captured by the security monitoring tools, contextual analysis was required to further distinguish between the two activities.
 Key recommendations include detection signature refinement and incorporating contextual analysis and anomaly detection to enhance
 IDS capabilities.
+</p>
 
 <img  src=".images/system_design.png" alt="System Design" width=800 align="center" />
 
