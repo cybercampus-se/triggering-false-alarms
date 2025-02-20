@@ -52,8 +52,8 @@ techniques by administrators and attackers alike have blurred the line between b
 numerous false alarms in Intrusion Detection Systems (IDS), diminishing their efficacy and overwhelming security teams.
 This thesis investigates the challenges of accurately distinguishing between legitimate and adversarial use of LotL techniques,
 focusing on how overlapping techniques impact IDS performance. To identify these intersecting LotL techniques, the study leveraged the 
-[MITRE ATT&CK®](https://attack.mitre.org/) framework, the [LOLBAS Project](https://lolbas-project.github.io/), and 
-[Sigma detection signatures](https://github.com/SigmaHQ/sigma), alongside interviews and surveys with practitioners.
+<a href="https://attack.mitre.org/">MITRE ATT&CK®</a> framework, the <a href="https://lolbas-project.github.io/">LOLBAS Project</a>, and 
+<a href="https://github.com/SigmaHQ/sigma">Sigma detection signatures</a>, alongside interviews and surveys with practitioners.
 A subset of administrative tasks that resemble adversarial behaviors were automated and simulated in the Cyber Range And Training Environment (CRATE), 
 while the Atomic Red Team framework was used to emulate malicious actions. Testing for detection accuracy was evaluated using signature-based IDS tools, Snort, Sysmon
 and Wazuh. The findings show that despite using the same binaries and triggering identical signatures, there are subtle behavioral
