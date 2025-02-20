@@ -45,7 +45,6 @@
 <p>
 
 ## Overview
-- [Overview](#overview)
 
 - **Team**
   - Supervisors: [Dr. Emre Süren](https://github.com/beyefendi) | [Teodor Sommestad](#)
