@@ -10,7 +10,7 @@
 #ce ----------------------------------------------------------------------------
 
 
-Local $installerUrl = "https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.81-installer.msi" ; http://1.1.1.17/pub/chocolatey/#browse/browse:download:peters_files%2Fputty-64bit-0.81-installer.msi
+Local $installerUrl = "https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.81-installer.msi" 
 Local $installerPath = @UserProfileDir & "\Downloads\Wireshark-4.4.1-x64.msi"
 Local $wiresharkLogPath = @UserProfileDir & "\Downloads\wireshark_install.log"
 Local $PuttyLogPath = @UserProfileDir & "\Downloads\putty_install.log"
