@@ -1,0 +1,81 @@
+attack_technique: T1021.004
+display_name: 'Remote Services: SSH'
+atomic_tests:
+- name: Windows- SSH Remote Port Forwarding
+  auto_generated_guid: 35d36550-34ea-40ad-a9e6-0ea40a102aab
+  description: |
+    An adversary uses the OpenSSH client on a Windows host to set up remote port forwarding, which allows 
+    forwarding traffic from a port on the remote machine to a specified port on the local machine.
+  supported_platforms:
+  - windows
+  input_arguments:
+    ssh_host:
+      description: Specify the hostname of the remote host
+      type: string
+      default: 134.23.17.132
+    ssh_user:
+      description: Specify the username for SSH login
+      type: string
+      default: admin
+    remote_port:
+      description: The port to open on the remote server
+      type: string
+      default: 5902
+    local_port:
+      description: The local port to forward traffic to
+      type: string
+      default: 5901
+  dependency_executor_name: powershell
+  dependencies:
+  - description: |
+      Check if the Windows OpenSSH client is installed.
+    prereq_command: |
+      $RequiredModule = Get-Command ssh -ErrorAction SilentlyContinue
+      if (-not $RequiredModule) {exit 1}	
+    get_prereq_command: |
+      Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
+  executor:
+    command: |
+      ssh -o StrictHostKeyChecking=no -R #{remote_port}:localhost:#{local_port} #{ssh_user}@#{ssh_host} "echo 'Succesfully emulated adversary ssh portforwarding!'"
+    cleanup_command: ""
+    name: powershell
+    elevation_required: false
+- name: Windows- SSH Proxy Execution
+  auto_generated_guid: 22550267-2966-49d1-8313-14beb9a1b64d
+  description: |
+    An adversary uses SSH Proxying to tunnel an ssh connection through an intermediate proxy host.
+  supported_platforms:
+  - windows
+  input_arguments:
+    remote_host:
+      description: Specify the hostname of the remote host
+      type: string
+      default: 134.23.17.132
+    remote_user:
+      description: Specify the username for remote host
+      type: string
+      default: admin
+    proxy_host:
+      description: Specify the proxy host to tunnel through 
+      type: string
+      default: 134.23.2.15
+    proxy_user:
+      description: Specify the username for proxy host
+      type: string
+      default: root
+  dependency_executor_name: powershell
+  dependencies:
+  - description: |
+      Check if the Windows OpenSSH client is installed.
+    prereq_command: |
+      $RequiredModule = Get-Command ssh -ErrorAction SilentlyContinue
+      if (-not $RequiredModule) {exit 1}	
+    get_prereq_command: |
+      Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
+  executor:
+    command: |
+      ssh -o StrictHostKeyChecking=no -o ProxyCommand="ssh -o StrictHostKeyChecking=no -W %h:%p #{proxy_user}@#{proxy_host}" #{remote_user}@#{remote_host} "echo 'Succesfully emulated adversary ssh proxying!'"
+    cleanup_command: ""
+    name: powershell
+    elevation_required: false
+
