@@ -2,7 +2,7 @@
 
 <h1 align="center" position="relative">
   <br>
-  <img src=".images/banner2.jpg" alt="Decorative image">
+  <img src=".images/banner.jpg" alt="Decorative image">
   <br>
   <br>
   <span>Triggering False Alarms in Computer Networks</span>
