@@ -2,7 +2,7 @@
 
 <h1 align="center" position="relative">
   <br>
-  <img src=".images/banner.jpg" alt="Decorative image">
+  <img src="assets/images/banner.jpg" alt="Decorative image">
   <br>
   <br>
   <span>Triggering False Alarms in Computer Networks</span>
@@ -61,12 +61,12 @@ Key recommendations include detection signature refinement and incorporating con
 IDS capabilities.
 </p>
 
-<img  src=".images/system_design.png" alt="System Design" align="center" />
+<img  src="assets/images/system_design.png" alt="System Design" align="center" />
 
 <br>
 
   <a href="https://www.cybercampus.se/" >
-    <img src=".images/rhl-logo.png" alt="Royal Hacking Lab logo" width=80 align="right" />
+    <img src="assets/images/rhl-logo.png" alt="Royal Hacking Lab logo" width=80 align="right" />
   </a>
 
 - - - -
