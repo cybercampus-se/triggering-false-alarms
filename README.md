@@ -75,7 +75,7 @@ IDS capabilities.
 
 ## Video recording
 
-![Video](https://github.com/cybercampus-se/triggering-false-alarms/blob/main/assets/videos/sysadmin_simulation.mp4)
+https://github.com/cybercampus-se/triggering-false-alarms/blob/main/assets/videos/sysadmin_simulation.mp4
 
 <br>
 
