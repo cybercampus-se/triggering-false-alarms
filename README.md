@@ -40,14 +40,14 @@
 
 ## Timeline
 
-- Status: running :green_circle: (or pending :yellow_circle:, completed :orange_circle:)
+- Status: completed :orange_circle: 
 - Started: 2024-08
-- Ended: 2025-04
+- Ended: 2025-07
 
 ## Parent project: [Digital Forensics](link-to-umbrella-project)
 
 - [Published Thesis on DiVa](link-to-diva-like-urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-xxxxxx)
-- [Defence Slides](link-to-defence-slides-in-odf-format)
+- [Defence Slides](https://docs.google.com/presentation/d/1Li3sOf40tPUkWRwf1MbM_F66uZNlbcYq/edit?usp=sharing&ouid=105519897634959570548&rtpof=true&sd=true)
 
 ## Abstract
 
