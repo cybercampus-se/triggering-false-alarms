@@ -75,7 +75,10 @@ IDS capabilities.
 
 ## Video recording
 
-![Video](assets/videos/sysadmin_simulation.mp4)
+<video controls width="600">
+  <source src="assets/videos/sysadmin_simulation.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 <br>
 
