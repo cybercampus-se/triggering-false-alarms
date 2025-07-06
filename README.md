@@ -75,10 +75,7 @@ IDS capabilities.
 
 ## Video recording
 
-<video controls width="600">
-  <source src="assets/videos/sysadmin_simulation.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Video](https://github.com/cybercampus-se/triggering-false-alarms/blob/main/assets/videos/sysadmin_simulation.mp4)
 
 <br>
 
